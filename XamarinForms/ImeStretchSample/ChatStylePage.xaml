@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ImeStretchSample.ChatStylePage"
+             Title="Chat Style Page">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <ListView Grid.Row="0" x:Name="listView" />
+            <Entry Grid.Row="1" Placeholder="your message" />
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

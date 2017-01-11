@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ImeStretchSample.NormalPage"
+             Title="ScrollView Page">
+
+    <ContentPage.Content>
+        <ScrollView Orientation="Vertical">
+            <StackLayout Orientation="Vertical">
+                <Entry Text="00001" />
+                <Entry Text="00002" />
+                <Entry Text="00003" />
+                <Entry Text="00004" />
+                <Entry Text="00005" />
+                <Entry Text="00006" />
+                <Entry Text="00007" />
+                <Entry Text="00008" />
+                <Entry Text="00009" />
+                <Entry Text="00010" />
+                <Entry Text="00011" />
+                <Entry Text="00012" />
+                <Entry Text="00013" />
+                <Entry Text="00014" />
+                <Entry Text="00015" />
+                <Entry Text="00016" />
+                <Entry Text="00017" />
+                <Entry Text="00018" />
+                <Entry Text="00019" />
+                <Entry Text="00020" />
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="416b61de-badd-4e39-bee3-f1a3e0619541" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Droid/Resources/drawable-hdpi/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Droid/Resources/drawable-xhdpi/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Droid/Resources/drawable-xxhdpi/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Droid/Resources/drawable/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Droid/Assets/AboutAssets.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Droid/ImeStretchSample.Droid.csproj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Droid/MainActivity.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Droid/Properties/AndroidManifest.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Droid/Properties/AssemblyInfo.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Droid/Resources/AboutResources.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Droid/Resources/Resource.designer.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Droid/Resources/layout/Tabbar.axml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Droid/Resources/layout/Toolbar.axml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Droid/Resources/values/styles.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Droid/packages.config" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DroidImeStretchSample/packages.config" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ImeStretchSample.sln" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ImeStretchSample/App.xaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ImeStretchSample/App.xaml.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ImeStretchSample/ChatStylePage.xaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ImeStretchSample/ChatStylePage.xaml.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ImeStretchSample/ImeStretchSample.csproj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ImeStretchSample/MainPage.xaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ImeStretchSample/MainPage.xaml.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ImeStretchSample/NormalPage.xaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ImeStretchSample/NormalPage.xaml.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ImeStretchSample/Properties/AssemblyInfo.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ImeStretchSample/packages.config" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOS/AppDelegate.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOS/Assets.xcassets/AppIcon.appiconset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOS/Assets.xcassets/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOS/Entitlements.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOS/ImeStretchSample.iOS.csproj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOS/Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOS/KeyboardOverlapRenderer.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOS/LaunchScreen.storyboard" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOS/Main.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOS/ViewExtensions.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOS/packages.config" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="MainPage.xaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ImeStretchSample/MainPage.xaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+              <folding>
+                <marker date="1484126283000" expanded="true" signature="40:473" ph="&lt;&lt;ContentPage.Content&gt;&#10;        &lt;StackLayout Orientation=&quot;Vertical&quot; &gt;&#10;            &lt;Button x:Name=&quot;buttonNormal&quot; Text=&quot;Normal Page&quot;/&gt;&#10;            &lt;Button x:Name=&quot;buttonChatStyle&quot; Text=&quot;Chat Style Page&quot;/&gt;&#10;        &lt;/StackLayout&gt;&#10;    &lt;/ContentPage.Content&gt;.../&gt;" />
+                <marker date="1484126283000" expanded="true" signature="208:458" ph="&lt;&lt;StackLayout Orientation=&quot;Vertical&quot; &gt;&#10;            &lt;Button x:Name=&quot;buttonNormal&quot; Text=&quot;Normal Page&quot;/&gt;&#10;            &lt;Button x:Name=&quot;buttonChatStyle&quot; Text=&quot;Chat Style Page&quot;/&gt;&#10;        &lt;/StackLayout&gt;.../&gt;" />
+                <marker date="1484126283000" expanded="true" signature="238:431" ph="&lt;&lt;Button x:Name=&quot;buttonNormal&quot; Text=&quot;Normal Page&quot;/&gt; &lt;Button x:Name=&quot;buttonChatStyle&quot; Text=&quot;Chat Style Page&quot;/&gt;.../&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainPage.xaml.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ImeStretchSample/MainPage.xaml.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="14" lean-forward="false" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+              <folding>
+                <marker date="1484126358000" expanded="true" signature="6:99" ph="..." />
+                <marker date="1484126358000" expanded="true" signature="127:582" ph="{...}" />
+                <marker date="1484126358000" expanded="true" signature="177:580" ph="{...}" />
+                <marker date="1484126358000" expanded="true" signature="209:574" ph="{...}" />
+                <marker date="1484126358000" expanded="true" signature="315:405" ph="{...}" />
+                <marker date="1484126358000" expanded="true" signature="470:563" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NormalPage.xaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ImeStretchSample/NormalPage.xaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="38" lean-forward="false" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+              <folding>
+                <marker date="1484139493000" expanded="true" signature="40:1246" ph="&lt;&lt;ContentPage.Content&gt;&#10;        &lt;ScrollView Orientation=&quot;Vertical&quot;&gt;&#10;            &lt;StackLayout Orientation=&quot;Vertical&quot;&gt;&#10;                &lt;Entry Text=&quot;00001&quot; /&gt;&#10;                &lt;Entry Text=&quot;00002&quot; /&gt;&#10;                &lt;Entry Text=&quot;00003&quot; /&gt;&#10;                &lt;Entry Text=&quot;00004&quot; /&gt;&#10;                &lt;Entry Text=&quot;00005&quot; /&gt;&#10;                &lt;Entry Text=&quot;00006&quot; /&gt;&#10;                &lt;Entry Text=&quot;00007&quot; /&gt;&#10;                &lt;Entry Text=&quot;00008&quot; /&gt;&#10;                &lt;Entry Text=&quot;00009&quot; /&gt;&#10;                &lt;Entry Text=&quot;00010&quot; /&gt;&#10;                &lt;Entry Text=&quot;00011&quot; /&gt;&#10;                &lt;Entry Text=&quot;00012&quot; /&gt;&#10;                &lt;Entry Text=&quot;00013&quot; /&gt;&#10;                &lt;Entry Text=&quot;00014&quot; /&gt;&#10;                &lt;Entry Text=&quot;00015&quot; /&gt;&#10;                &lt;Entry Text=&quot;00016&quot; /&gt;&#10;                &lt;Entry Text=&quot;00017&quot; /&gt;&#10;                &lt;Entry Text=&quot;00018&quot; /&gt;&#10;                &lt;Entry Text=&quot;00019&quot; /&gt;&#10;                &lt;Entry Text=&quot;00020&quot; /&gt;&#10;            &lt;/StackLayout&gt;&#10;        &lt;/ScrollView&gt;&#10;    &lt;/ContentPage.Content&gt;.../&gt;" />
+                <marker date="1484139493000" expanded="true" signature="261:1231" ph="&lt;&lt;ScrollView Orientation=&quot;Vertical&quot;&gt;&#10;            &lt;StackLayout Orientation=&quot;Vertical&quot;&gt;&#10;                &lt;Entry Text=&quot;00001&quot; /&gt;&#10;                &lt;Entry Text=&quot;00002&quot; /&gt;&#10;                &lt;Entry Text=&quot;00003&quot; /&gt;&#10;                &lt;Entry Text=&quot;00004&quot; /&gt;&#10;                &lt;Entry Text=&quot;00005&quot; /&gt;&#10;                &lt;Entry Text=&quot;00006&quot; /&gt;&#10;                &lt;Entry Text=&quot;00007&quot; /&gt;&#10;                &lt;Entry Text=&quot;00008&quot; /&gt;&#10;                &lt;Entry Text=&quot;00009&quot; /&gt;&#10;                &lt;Entry Text=&quot;00010&quot; /&gt;&#10;                &lt;Entry Text=&quot;00011&quot; /&gt;&#10;                &lt;Entry Text=&quot;00012&quot; /&gt;&#10;                &lt;Entry Text=&quot;00013&quot; /&gt;&#10;                &lt;Entry Text=&quot;00014&quot; /&gt;&#10;                &lt;Entry Text=&quot;00015&quot; /&gt;&#10;                &lt;Entry Text=&quot;00016&quot; /&gt;&#10;                &lt;Entry Text=&quot;00017&quot; /&gt;&#10;                &lt;Entry Text=&quot;00018&quot; /&gt;&#10;                &lt;Entry Text=&quot;00019&quot; /&gt;&#10;                &lt;Entry Text=&quot;00020&quot; /&gt;&#10;            &lt;/StackLayout&gt;&#10;        &lt;/ScrollView&gt;.../&gt;" />
+                <marker date="1484139493000" expanded="true" signature="291:1204" ph="&lt;&lt;StackLayout Orientation=&quot;Vertical&quot;&gt;&#10;                &lt;Entry Text=&quot;00001&quot; /&gt;&#10;                &lt;Entry Text=&quot;00002&quot; /&gt;&#10;                &lt;Entry Text=&quot;00003&quot; /&gt;&#10;                &lt;Entry Text=&quot;00004&quot; /&gt;&#10;                &lt;Entry Text=&quot;00005&quot; /&gt;&#10;                &lt;Entry Text=&quot;00006&quot; /&gt;&#10;                &lt;Entry Text=&quot;00007&quot; /&gt;&#10;                &lt;Entry Text=&quot;00008&quot; /&gt;&#10;                &lt;Entry Text=&quot;00009&quot; /&gt;&#10;                &lt;Entry Text=&quot;00010&quot; /&gt;&#10;                &lt;Entry Text=&quot;00011&quot; /&gt;&#10;                &lt;Entry Text=&quot;00012&quot; /&gt;&#10;                &lt;Entry Text=&quot;00013&quot; /&gt;&#10;                &lt;Entry Text=&quot;00014&quot; /&gt;&#10;                &lt;Entry Text=&quot;00015&quot; /&gt;&#10;                &lt;Entry Text=&quot;00016&quot; /&gt;&#10;                &lt;Entry Text=&quot;00017&quot; /&gt;&#10;                &lt;Entry Text=&quot;00018&quot; /&gt;&#10;                &lt;Entry Text=&quot;00019&quot; /&gt;&#10;                &lt;Entry Text=&quot;00020&quot; /&gt;&#10;            &lt;/StackLayout&gt;.../&gt;" />
+                <marker date="1484139493000" expanded="true" signature="339:1182" ph="&lt;&lt;Entry Text=&quot;00001&quot; /&gt; &lt;Entry Text=&quot;00002&quot; /&gt; &lt;Entry Text=&quot;00003&quot; /&gt; &lt;Entry Text=&quot;00004&quot; /&gt; &lt;Entry Text=&quot;00005&quot; /&gt; &lt;Entry Text=&quot;00006&quot; /&gt; &lt;Entry Text=&quot;00007&quot; /&gt; &lt;Entry Text=&quot;00008&quot; /&gt; &lt;Entry Text=&quot;00009&quot; /&gt; &lt;Entry Text=&quot;00010&quot; /&gt; &lt;Entry Text=&quot;00011&quot; /&gt; &lt;Entry Text=&quot;00012&quot; /&gt; &lt;Entry Text=&quot;00013&quot; /&gt; &lt;Entry Text=&quot;00014&quot; /&gt; &lt;Entry Text=&quot;00015&quot; /&gt; &lt;Entry Text=&quot;00016&quot; /&gt; &lt;Entry Text=&quot;00017&quot; /&gt; &lt;Entry Text=&quot;00018&quot; /&gt; &lt;Entry Text=&quot;00019&quot; /&gt; &lt;Entry Text=&quot;00020&quot; /&gt;.../&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KeyboardOverlapRenderer.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/iOS/KeyboardOverlapRenderer.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+              <folding>
+                <marker date="1484147879000" expanded="true" signature="6:192" ph="..." />
+                <marker date="1484147879000" expanded="true" signature="317:4621" ph="{...}" />
+                <marker date="1484147879000" expanded="true" signature="409:4619" ph="{...}" />
+                <marker date="1484147879000" expanded="true" signature="651:784" ph="{...}" />
+                <marker date="1484147879000" expanded="true" signature="844:1211" ph="{...}" />
+                <marker date="1484147879000" expanded="true" signature="976:1201" ph="{...}" />
+                <marker date="1484147879000" expanded="true" signature="1274:1391" ph="{...}" />
+                <marker date="1484147879000" expanded="true" signature="1440:1828" ph="{...}" />
+                <marker date="1484147879000" expanded="true" signature="1879:2458" ph="{...}" />
+                <marker date="1484147879000" expanded="true" signature="1974:2187" ph="{...}" />
+                <marker date="1484147879000" expanded="true" signature="2235:2448" ph="{...}" />
+                <marker date="1484147879000" expanded="true" signature="2534:3218" ph="{...}" />
+                <marker date="1484147879000" expanded="true" signature="3034:3208" ph="{...}" />
+                <marker date="1484147879000" expanded="true" signature="3284:3617" ph="{...}" />
+                <marker date="1484147879000" expanded="true" signature="3507:3607" ph="{...}" />
+                <marker date="1484147879000" expanded="true" signature="3699:3774" ph="{...}" />
+                <marker date="1484147879000" expanded="true" signature="4351:4410" ph="{...}" />
+                <marker date="1484147879000" expanded="true" signature="4524:4613" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChatStylePage.xaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ImeStretchSample/ChatStylePage.xaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding>
+                <marker date="1484139493000" expanded="true" signature="40:639" ph="&lt;&lt;ContentPage.Content&gt;&#10;        &lt;Grid&gt;&#10;            &lt;Grid.RowDefinitions&gt;&#10;                &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;                &lt;RowDefinition Height=&quot;Auto&quot; /&gt;&#10;            &lt;/Grid.RowDefinitions&gt;&#10;&#10;            &lt;ListView Grid.Row=&quot;0&quot; x:Name=&quot;listView&quot; /&gt;&#10;            &lt;Entry Grid.Row=&quot;1&quot; Placeholder=&quot;your message&quot; /&gt;&#10;&#10;        &lt;/Grid&gt;&#10;    &lt;/ContentPage.Content&gt;.../&gt;" />
+                <marker date="1484139493000" expanded="true" signature="263:624" ph="&lt;&lt;Grid&gt;&#10;            &lt;Grid.RowDefinitions&gt;&#10;                &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;                &lt;RowDefinition Height=&quot;Auto&quot; /&gt;&#10;            &lt;/Grid.RowDefinitions&gt;&#10;&#10;            &lt;ListView Grid.Row=&quot;0&quot; x:Name=&quot;listView&quot; /&gt;&#10;            &lt;Entry Grid.Row=&quot;1&quot; Placeholder=&quot;your message&quot; /&gt;&#10;&#10;        &lt;/Grid&gt;.../&gt;" />
+                <marker date="1484139493000" expanded="true" signature="293:597" ph="&lt;&lt;Grid.RowDefinitions&gt;&#10;                &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;                &lt;RowDefinition Height=&quot;Auto&quot; /&gt;&#10;            &lt;/Grid.RowDefinitions&gt; &lt;ListView Grid.Row=&quot;0&quot; x:Name=&quot;listView&quot; /&gt; &lt;Entry Grid.Row=&quot;1&quot; Placeholder=&quot;your message&quot; /&gt;.../&gt;" />
+                <marker date="1484139493000" expanded="true" signature="312:461" ph="&lt;&lt;RowDefinition Height=&quot;*&quot; /&gt; &lt;RowDefinition Height=&quot;Auto&quot; /&gt;.../&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.xaml.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ImeStretchSample/App.xaml.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1484138558000" expanded="true" signature="198:679" ph="{...}" />
+                <marker date="1484138558000" expanded="true" signature="209:677" ph="{...}" />
+                <marker date="1484138558000" expanded="true" signature="236:351" ph="{...}" />
+                <marker date="1484138558000" expanded="true" signature="394:457" ph="{...}" />
+                <marker date="1484138558000" expanded="true" signature="500:563" ph="{...}" />
+                <marker date="1484138558000" expanded="true" signature="607:671" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ImeStretchSample/ImeStretchSamplePage.xaml" />
+        <option value="$PROJECT_DIR$/ImeStretchSample/MainPage.xaml" />
+        <option value="$PROJECT_DIR$/ImeStretchSample/MainPage.xaml.cs" />
+        <option value="$PROJECT_DIR$/ImeStretchSample/ChatStylePage.xaml.cs" />
+        <option value="$PROJECT_DIR$/ImeStretchSample/ChatStylePage.xaml" />
+        <option value="$PROJECT_DIR$/ImeStretchSample/NormalPage.xaml" />
+        <option value="$PROJECT_DIR$/iOS/KeyboardOverlapRenderer.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="34" />
+    <option name="y" value="12" />
+    <option name="width" value="1852" />
+    <option name="height" value="1057" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ImeStretchSample (4 projects)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ImeStretchSample.iOS" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ImeStretchSample (4 projects)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ImeStretchSample (4 projects)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ImeStretchSample" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ImeStretchSample (4 projects)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ImeStretchSample" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MainPage.xaml" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ImeStretchSample (4 projects)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ImeStretchSample" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ChatStylePage.xaml" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ImeStretchSample (4 projects)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ImeStretchSample" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App.xaml" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="FullScreen" value="true" />
+  </component>
+  <component name="RunManager" selected=".NET Project.Default">
+    <configuration default="true" type="DotNetProject" factoryName=".NET Project">
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue=".NET Project.Default" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="416b61de-badd-4e39-bee3-f1a3e0619541" name="Default" comment="" />
+      <created>1484100426655</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1484100426655</updated>
+      <workItem from="1484100431063" duration="1421000" />
+      <workItem from="1484125821700" duration="1036000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2457000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="34" y="12" width="1852" height="1057" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Change Signature" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24082074" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors in solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="UnitTesting" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32871288" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ImeStretchSample/ImeStretchSamplePage.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="14" lean-forward="false" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ImeStretchSample/MainPage.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          <folding>
+            <marker date="1484126283000" expanded="true" signature="40:473" ph="&lt;&lt;ContentPage.Content&gt;&#10;        &lt;StackLayout Orientation=&quot;Vertical&quot; &gt;&#10;            &lt;Button x:Name=&quot;buttonNormal&quot; Text=&quot;Normal Page&quot;/&gt;&#10;            &lt;Button x:Name=&quot;buttonChatStyle&quot; Text=&quot;Chat Style Page&quot;/&gt;&#10;        &lt;/StackLayout&gt;&#10;    &lt;/ContentPage.Content&gt;.../&gt;" />
+            <marker date="1484126283000" expanded="true" signature="208:458" ph="&lt;&lt;StackLayout Orientation=&quot;Vertical&quot; &gt;&#10;            &lt;Button x:Name=&quot;buttonNormal&quot; Text=&quot;Normal Page&quot;/&gt;&#10;            &lt;Button x:Name=&quot;buttonChatStyle&quot; Text=&quot;Chat Style Page&quot;/&gt;&#10;        &lt;/StackLayout&gt;.../&gt;" />
+            <marker date="1484126283000" expanded="true" signature="238:431" ph="&lt;&lt;Button x:Name=&quot;buttonNormal&quot; Text=&quot;Normal Page&quot;/&gt; &lt;Button x:Name=&quot;buttonChatStyle&quot; Text=&quot;Chat Style Page&quot;/&gt;.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ImeStretchSample/App.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1484138558000" expanded="true" signature="198:679" ph="{...}" />
+            <marker date="1484138558000" expanded="true" signature="209:677" ph="{...}" />
+            <marker date="1484138558000" expanded="true" signature="236:351" ph="{...}" />
+            <marker date="1484138558000" expanded="true" signature="394:457" ph="{...}" />
+            <marker date="1484138558000" expanded="true" signature="500:563" ph="{...}" />
+            <marker date="1484138558000" expanded="true" signature="607:671" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ImeStretchSample/MainPage.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="14" lean-forward="false" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+          <folding>
+            <marker date="1484126358000" expanded="true" signature="6:99" ph="..." />
+            <marker date="1484126358000" expanded="true" signature="127:582" ph="{...}" />
+            <marker date="1484126358000" expanded="true" signature="177:580" ph="{...}" />
+            <marker date="1484126358000" expanded="true" signature="209:574" ph="{...}" />
+            <marker date="1484126358000" expanded="true" signature="315:405" ph="{...}" />
+            <marker date="1484126358000" expanded="true" signature="470:563" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ImeStretchSample/ChatStylePage.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <marker date="1484139424000" expanded="true" signature="6:69" ph="..." />
+            <marker date="1484139424000" expanded="true" signature="97:433" ph="{...}" />
+            <marker date="1484139424000" expanded="true" signature="152:431" ph="{...}" />
+            <marker date="1484139424000" expanded="true" signature="189:425" ph="{...}" />
+            <marker date="1484139424000" expanded="true" signature="316:373" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ImeStretchSample/ChatStylePage.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <marker date="1484139493000" expanded="true" signature="40:639" ph="&lt;&lt;ContentPage.Content&gt;&#10;        &lt;Grid&gt;&#10;            &lt;Grid.RowDefinitions&gt;&#10;                &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;                &lt;RowDefinition Height=&quot;Auto&quot; /&gt;&#10;            &lt;/Grid.RowDefinitions&gt;&#10;&#10;            &lt;ListView Grid.Row=&quot;0&quot; x:Name=&quot;listView&quot; /&gt;&#10;            &lt;Entry Grid.Row=&quot;1&quot; Placeholder=&quot;your message&quot; /&gt;&#10;&#10;        &lt;/Grid&gt;&#10;    &lt;/ContentPage.Content&gt;.../&gt;" />
+            <marker date="1484139493000" expanded="true" signature="263:624" ph="&lt;&lt;Grid&gt;&#10;            &lt;Grid.RowDefinitions&gt;&#10;                &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;                &lt;RowDefinition Height=&quot;Auto&quot; /&gt;&#10;            &lt;/Grid.RowDefinitions&gt;&#10;&#10;            &lt;ListView Grid.Row=&quot;0&quot; x:Name=&quot;listView&quot; /&gt;&#10;            &lt;Entry Grid.Row=&quot;1&quot; Placeholder=&quot;your message&quot; /&gt;&#10;&#10;        &lt;/Grid&gt;.../&gt;" />
+            <marker date="1484139493000" expanded="true" signature="293:597" ph="&lt;&lt;Grid.RowDefinitions&gt;&#10;                &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;                &lt;RowDefinition Height=&quot;Auto&quot; /&gt;&#10;            &lt;/Grid.RowDefinitions&gt; &lt;ListView Grid.Row=&quot;0&quot; x:Name=&quot;listView&quot; /&gt; &lt;Entry Grid.Row=&quot;1&quot; Placeholder=&quot;your message&quot; /&gt;.../&gt;" />
+            <marker date="1484139493000" expanded="true" signature="312:461" ph="&lt;&lt;RowDefinition Height=&quot;*&quot; /&gt; &lt;RowDefinition Height=&quot;Auto&quot; /&gt;.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ImeStretchSample/NormalPage.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="38" lean-forward="false" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+          <folding>
+            <marker date="1484139493000" expanded="true" signature="40:1246" ph="&lt;&lt;ContentPage.Content&gt;&#10;        &lt;ScrollView Orientation=&quot;Vertical&quot;&gt;&#10;            &lt;StackLayout Orientation=&quot;Vertical&quot;&gt;&#10;                &lt;Entry Text=&quot;00001&quot; /&gt;&#10;                &lt;Entry Text=&quot;00002&quot; /&gt;&#10;                &lt;Entry Text=&quot;00003&quot; /&gt;&#10;                &lt;Entry Text=&quot;00004&quot; /&gt;&#10;                &lt;Entry Text=&quot;00005&quot; /&gt;&#10;                &lt;Entry Text=&quot;00006&quot; /&gt;&#10;                &lt;Entry Text=&quot;00007&quot; /&gt;&#10;                &lt;Entry Text=&quot;00008&quot; /&gt;&#10;                &lt;Entry Text=&quot;00009&quot; /&gt;&#10;                &lt;Entry Text=&quot;00010&quot; /&gt;&#10;                &lt;Entry Text=&quot;00011&quot; /&gt;&#10;                &lt;Entry Text=&quot;00012&quot; /&gt;&#10;                &lt;Entry Text=&quot;00013&quot; /&gt;&#10;                &lt;Entry Text=&quot;00014&quot; /&gt;&#10;                &lt;Entry Text=&quot;00015&quot; /&gt;&#10;                &lt;Entry Text=&quot;00016&quot; /&gt;&#10;                &lt;Entry Text=&quot;00017&quot; /&gt;&#10;                &lt;Entry Text=&quot;00018&quot; /&gt;&#10;                &lt;Entry Text=&quot;00019&quot; /&gt;&#10;                &lt;Entry Text=&quot;00020&quot; /&gt;&#10;            &lt;/StackLayout&gt;&#10;        &lt;/ScrollView&gt;&#10;    &lt;/ContentPage.Content&gt;.../&gt;" />
+            <marker date="1484139493000" expanded="true" signature="261:1231" ph="&lt;&lt;ScrollView Orientation=&quot;Vertical&quot;&gt;&#10;            &lt;StackLayout Orientation=&quot;Vertical&quot;&gt;&#10;                &lt;Entry Text=&quot;00001&quot; /&gt;&#10;                &lt;Entry Text=&quot;00002&quot; /&gt;&#10;                &lt;Entry Text=&quot;00003&quot; /&gt;&#10;                &lt;Entry Text=&quot;00004&quot; /&gt;&#10;                &lt;Entry Text=&quot;00005&quot; /&gt;&#10;                &lt;Entry Text=&quot;00006&quot; /&gt;&#10;                &lt;Entry Text=&quot;00007&quot; /&gt;&#10;                &lt;Entry Text=&quot;00008&quot; /&gt;&#10;                &lt;Entry Text=&quot;00009&quot; /&gt;&#10;                &lt;Entry Text=&quot;00010&quot; /&gt;&#10;                &lt;Entry Text=&quot;00011&quot; /&gt;&#10;                &lt;Entry Text=&quot;00012&quot; /&gt;&#10;                &lt;Entry Text=&quot;00013&quot; /&gt;&#10;                &lt;Entry Text=&quot;00014&quot; /&gt;&#10;                &lt;Entry Text=&quot;00015&quot; /&gt;&#10;                &lt;Entry Text=&quot;00016&quot; /&gt;&#10;                &lt;Entry Text=&quot;00017&quot; /&gt;&#10;                &lt;Entry Text=&quot;00018&quot; /&gt;&#10;                &lt;Entry Text=&quot;00019&quot; /&gt;&#10;                &lt;Entry Text=&quot;00020&quot; /&gt;&#10;            &lt;/StackLayout&gt;&#10;        &lt;/ScrollView&gt;.../&gt;" />
+            <marker date="1484139493000" expanded="true" signature="291:1204" ph="&lt;&lt;StackLayout Orientation=&quot;Vertical&quot;&gt;&#10;                &lt;Entry Text=&quot;00001&quot; /&gt;&#10;                &lt;Entry Text=&quot;00002&quot; /&gt;&#10;                &lt;Entry Text=&quot;00003&quot; /&gt;&#10;                &lt;Entry Text=&quot;00004&quot; /&gt;&#10;                &lt;Entry Text=&quot;00005&quot; /&gt;&#10;                &lt;Entry Text=&quot;00006&quot; /&gt;&#10;                &lt;Entry Text=&quot;00007&quot; /&gt;&#10;                &lt;Entry Text=&quot;00008&quot; /&gt;&#10;                &lt;Entry Text=&quot;00009&quot; /&gt;&#10;                &lt;Entry Text=&quot;00010&quot; /&gt;&#10;                &lt;Entry Text=&quot;00011&quot; /&gt;&#10;                &lt;Entry Text=&quot;00012&quot; /&gt;&#10;                &lt;Entry Text=&quot;00013&quot; /&gt;&#10;                &lt;Entry Text=&quot;00014&quot; /&gt;&#10;                &lt;Entry Text=&quot;00015&quot; /&gt;&#10;                &lt;Entry Text=&quot;00016&quot; /&gt;&#10;                &lt;Entry Text=&quot;00017&quot; /&gt;&#10;                &lt;Entry Text=&quot;00018&quot; /&gt;&#10;                &lt;Entry Text=&quot;00019&quot; /&gt;&#10;                &lt;Entry Text=&quot;00020&quot; /&gt;&#10;            &lt;/StackLayout&gt;.../&gt;" />
+            <marker date="1484139493000" expanded="true" signature="339:1182" ph="&lt;&lt;Entry Text=&quot;00001&quot; /&gt; &lt;Entry Text=&quot;00002&quot; /&gt; &lt;Entry Text=&quot;00003&quot; /&gt; &lt;Entry Text=&quot;00004&quot; /&gt; &lt;Entry Text=&quot;00005&quot; /&gt; &lt;Entry Text=&quot;00006&quot; /&gt; &lt;Entry Text=&quot;00007&quot; /&gt; &lt;Entry Text=&quot;00008&quot; /&gt; &lt;Entry Text=&quot;00009&quot; /&gt; &lt;Entry Text=&quot;00010&quot; /&gt; &lt;Entry Text=&quot;00011&quot; /&gt; &lt;Entry Text=&quot;00012&quot; /&gt; &lt;Entry Text=&quot;00013&quot; /&gt; &lt;Entry Text=&quot;00014&quot; /&gt; &lt;Entry Text=&quot;00015&quot; /&gt; &lt;Entry Text=&quot;00016&quot; /&gt; &lt;Entry Text=&quot;00017&quot; /&gt; &lt;Entry Text=&quot;00018&quot; /&gt; &lt;Entry Text=&quot;00019&quot; /&gt; &lt;Entry Text=&quot;00020&quot; /&gt;.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iOS/KeyboardOverlapRenderer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+          <folding>
+            <marker date="1484147879000" expanded="true" signature="6:192" ph="..." />
+            <marker date="1484147879000" expanded="true" signature="317:4621" ph="{...}" />
+            <marker date="1484147879000" expanded="true" signature="409:4619" ph="{...}" />
+            <marker date="1484147879000" expanded="true" signature="651:784" ph="{...}" />
+            <marker date="1484147879000" expanded="true" signature="844:1211" ph="{...}" />
+            <marker date="1484147879000" expanded="true" signature="976:1201" ph="{...}" />
+            <marker date="1484147879000" expanded="true" signature="1274:1391" ph="{...}" />
+            <marker date="1484147879000" expanded="true" signature="1440:1828" ph="{...}" />
+            <marker date="1484147879000" expanded="true" signature="1879:2458" ph="{...}" />
+            <marker date="1484147879000" expanded="true" signature="1974:2187" ph="{...}" />
+            <marker date="1484147879000" expanded="true" signature="2235:2448" ph="{...}" />
+            <marker date="1484147879000" expanded="true" signature="2534:3218" ph="{...}" />
+            <marker date="1484147879000" expanded="true" signature="3034:3208" ph="{...}" />
+            <marker date="1484147879000" expanded="true" signature="3284:3617" ph="{...}" />
+            <marker date="1484147879000" expanded="true" signature="3507:3607" ph="{...}" />
+            <marker date="1484147879000" expanded="true" signature="3699:3774" ph="{...}" />
+            <marker date="1484147879000" expanded="true" signature="4351:4410" ph="{...}" />
+            <marker date="1484147879000" expanded="true" signature="4524:4613" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
