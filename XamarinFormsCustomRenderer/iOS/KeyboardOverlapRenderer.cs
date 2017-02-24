@@ -15,9 +15,9 @@ namespace KeyboardOverlap.Forms.Plugin.iOSUnified
     {
         NSObject _keyboardShowObserver;
         NSObject _keyboardHideObserver;
-        private bool _pageWasShiftedUp;
-        private double _activeViewBottom;
         private bool _isKeyboardShown;
+        private double _sizeBeforeResizing;
+        private double _screenHeightForGetOrientation;
 
         public static void Init()
         {
@@ -80,6 +80,7 @@ namespace KeyboardOverlap.Forms.Plugin.iOSUnified
             if (!IsViewLoaded || _isKeyboardShown)
                 return;
 
+            _screenHeightForGetOrientation = UIScreen.MainScreen.Bounds.Height;
             _isKeyboardShown = true;
             var activeView = View.FindFirstResponder();
 
@@ -92,11 +93,8 @@ namespace KeyboardOverlap.Forms.Plugin.iOSUnified
             if (!isOverlapping)
                 return;
 
-            if (isOverlapping)
-            {
-                _activeViewBottom = activeView.GetViewRelativeBottom(View);
-                ShiftPageUp(keyboardFrame.Height, _activeViewBottom);
-            }
+            var activeViewBottom = activeView.GetViewRelativeBottom(View);
+            AdjustPageSize(keyboardFrame.Height, activeViewBottom);
         }
 
         private void OnKeyboardHide(NSNotification notification)
@@ -105,36 +103,40 @@ namespace KeyboardOverlap.Forms.Plugin.iOSUnified
                 return;
 
             _isKeyboardShown = false;
-            var keyboardFrame = UIKeyboard.FrameEndFromNotification(notification);
 
-            if (_pageWasShiftedUp)
+            if (_screenHeightForGetOrientation != UIScreen.MainScreen.Bounds.Height)
             {
-                ShiftPageDown(keyboardFrame.Height, _activeViewBottom);
+                _screenHeightForGetOrientation = UIScreen.MainScreen.Bounds.Height;
+                _sizeBeforeResizing = -1;
+                return;
+            }
+
+            if (_sizeBeforeResizing > Element.Bounds.Height)
+            {
+                RestorePageSize();
             }
         }
 
-        private void ShiftPageUp(nfloat keyboardHeight, double activeViewBottom)
+        private void AdjustPageSize(nfloat keyboardHeight, double activeViewBottom)
         {
             var pageFrame = Element.Bounds;
+
+            _sizeBeforeResizing = pageFrame.Height;
 
             var newHeight = pageFrame.Height + CalculateShiftByAmount(pageFrame.Height, keyboardHeight, activeViewBottom);
 
             Element.LayoutTo(new Rectangle(pageFrame.X, pageFrame.Y,
                 pageFrame.Width, newHeight));
-
-            _pageWasShiftedUp = true;
         }
 
-        private void ShiftPageDown(nfloat keyboardHeight, double activeViewBottom)
+        private void RestorePageSize()
         {
             var pageFrame = Element.Bounds;
 
-            var newHeight = pageFrame.Height + keyboardHeight;
-
             Element.LayoutTo(new Rectangle(pageFrame.X, pageFrame.Y,
-                pageFrame.Width, newHeight));
+                pageFrame.Width, _sizeBeforeResizing));
 
-            _pageWasShiftedUp = false;
+            _sizeBeforeResizing = -1;
         }
 
         private double CalculateShiftByAmount(double pageHeight, nfloat keyboardHeight, double activeViewBottom)

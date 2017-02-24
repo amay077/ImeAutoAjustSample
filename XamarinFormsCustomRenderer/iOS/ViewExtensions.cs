@@ -42,7 +42,7 @@ namespace KeyboardOverlap.Forms.Plugin.iOSUnified
             var viewRelativeCoordinates = rootView.ConvertPointFromView(view.Frame.Location, view);
             var activeViewRoundedY = Math.Round(viewRelativeCoordinates.Y, 2);
 
-            return activeViewRoundedY + view.Frame.Height;
+            return activeViewRoundedY + view.Superview.Frame.Bottom;
         }
 
         /// <summary>
