@@ -17,6 +17,7 @@ namespace KeyboardOverlap.Forms.Plugin.iOSUnified
         NSObject _keyboardHideObserver;
         private bool _isKeyboardShown;
         private double _sizeBeforeResizing;
+        private double _screenHeightForGetOrientation;
 
         public static void Init()
         {
@@ -79,6 +80,7 @@ namespace KeyboardOverlap.Forms.Plugin.iOSUnified
             if (!IsViewLoaded || _isKeyboardShown)
                 return;
 
+            _screenHeightForGetOrientation = UIScreen.MainScreen.Bounds.Height;
             _isKeyboardShown = true;
             var activeView = View.FindFirstResponder();
 
@@ -90,7 +92,7 @@ namespace KeyboardOverlap.Forms.Plugin.iOSUnified
 
             if (!isOverlapping)
                 return;
-            
+
             var activeViewBottom = activeView.GetViewRelativeBottom(View);
             AdjustPageSize(keyboardFrame.Height, activeViewBottom);
         }
@@ -101,6 +103,13 @@ namespace KeyboardOverlap.Forms.Plugin.iOSUnified
                 return;
 
             _isKeyboardShown = false;
+
+            if (_screenHeightForGetOrientation != UIScreen.MainScreen.Bounds.Height)
+            {
+                _screenHeightForGetOrientation = UIScreen.MainScreen.Bounds.Height;
+                _sizeBeforeResizing = -1;
+                return;
+            }
 
             if (_sizeBeforeResizing > Element.Bounds.Height)
             {
