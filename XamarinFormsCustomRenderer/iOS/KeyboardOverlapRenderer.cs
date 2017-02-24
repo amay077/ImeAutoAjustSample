@@ -15,7 +15,7 @@ namespace KeyboardOverlap.Forms.Plugin.iOSUnified
     {
         NSObject _keyboardShowObserver;
         NSObject _keyboardHideObserver;
-        private bool _pageWasShiftedUp;
+        private bool _pageResized;
         private double _activeViewBottom;
         private bool _isKeyboardShown;
 
@@ -95,7 +95,7 @@ namespace KeyboardOverlap.Forms.Plugin.iOSUnified
             if (isOverlapping)
             {
                 _activeViewBottom = activeView.GetViewRelativeBottom(View);
-                ShiftPageUp(keyboardFrame.Height, _activeViewBottom);
+                AdjustPageSize(keyboardFrame.Height, _activeViewBottom);
             }
         }
 
@@ -107,13 +107,13 @@ namespace KeyboardOverlap.Forms.Plugin.iOSUnified
             _isKeyboardShown = false;
             var keyboardFrame = UIKeyboard.FrameEndFromNotification(notification);
 
-            if (_pageWasShiftedUp)
+            if (_pageResized)
             {
-                ShiftPageDown(keyboardFrame.Height, _activeViewBottom);
+                RestorePageSize(keyboardFrame.Height, _activeViewBottom);
             }
         }
 
-        private void ShiftPageUp(nfloat keyboardHeight, double activeViewBottom)
+        private void AdjustPageSize(nfloat keyboardHeight, double activeViewBottom)
         {
             var pageFrame = Element.Bounds;
 
@@ -122,10 +122,10 @@ namespace KeyboardOverlap.Forms.Plugin.iOSUnified
             Element.LayoutTo(new Rectangle(pageFrame.X, pageFrame.Y,
                 pageFrame.Width, newHeight));
 
-            _pageWasShiftedUp = true;
+            _pageResized = true;
         }
 
-        private void ShiftPageDown(nfloat keyboardHeight, double activeViewBottom)
+        private void RestorePageSize(nfloat keyboardHeight, double activeViewBottom)
         {
             var pageFrame = Element.Bounds;
 
@@ -134,7 +134,7 @@ namespace KeyboardOverlap.Forms.Plugin.iOSUnified
             Element.LayoutTo(new Rectangle(pageFrame.X, pageFrame.Y,
                 pageFrame.Width, newHeight));
 
-            _pageWasShiftedUp = false;
+            _pageResized = false;
         }
 
         private double CalculateShiftByAmount(double pageHeight, nfloat keyboardHeight, double activeViewBottom)
