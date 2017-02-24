@@ -15,9 +15,8 @@ namespace KeyboardOverlap.Forms.Plugin.iOSUnified
     {
         NSObject _keyboardShowObserver;
         NSObject _keyboardHideObserver;
-        private bool _pageResized;
-        private double _activeViewBottom;
         private bool _isKeyboardShown;
+        private double _sizeBeforeResizing;
 
         public static void Init()
         {
@@ -94,8 +93,8 @@ namespace KeyboardOverlap.Forms.Plugin.iOSUnified
 
             if (isOverlapping)
             {
-                _activeViewBottom = activeView.GetViewRelativeBottom(View);
-                AdjustPageSize(keyboardFrame.Height, _activeViewBottom);
+                var activeViewBottom = activeView.GetViewRelativeBottom(View);
+                AdjustPageSize(keyboardFrame.Height, activeViewBottom);
             }
         }
 
@@ -105,11 +104,10 @@ namespace KeyboardOverlap.Forms.Plugin.iOSUnified
                 return;
 
             _isKeyboardShown = false;
-            var keyboardFrame = UIKeyboard.FrameEndFromNotification(notification);
 
-            if (_pageResized)
+            if (_sizeBeforeResizing > Element.Bounds.Height)
             {
-                RestorePageSize(keyboardFrame.Height, _activeViewBottom);
+                RestorePageSize();
             }
         }
 
@@ -117,24 +115,22 @@ namespace KeyboardOverlap.Forms.Plugin.iOSUnified
         {
             var pageFrame = Element.Bounds;
 
+            _sizeBeforeResizing = pageFrame.Height;
+
             var newHeight = pageFrame.Height + CalculateShiftByAmount(pageFrame.Height, keyboardHeight, activeViewBottom);
 
             Element.LayoutTo(new Rectangle(pageFrame.X, pageFrame.Y,
                 pageFrame.Width, newHeight));
-
-            _pageResized = true;
         }
 
-        private void RestorePageSize(nfloat keyboardHeight, double activeViewBottom)
+        private void RestorePageSize()
         {
             var pageFrame = Element.Bounds;
 
-            var newHeight = pageFrame.Height + keyboardHeight;
-
             Element.LayoutTo(new Rectangle(pageFrame.X, pageFrame.Y,
-                pageFrame.Width, newHeight));
+                pageFrame.Width, _sizeBeforeResizing));
 
-            _pageResized = false;
+            _sizeBeforeResizing = -1;
         }
 
         private double CalculateShiftByAmount(double pageHeight, nfloat keyboardHeight, double activeViewBottom)
