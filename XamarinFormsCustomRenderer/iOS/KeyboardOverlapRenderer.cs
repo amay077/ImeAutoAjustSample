@@ -90,12 +90,9 @@ namespace KeyboardOverlap.Forms.Plugin.iOSUnified
 
             if (!isOverlapping)
                 return;
-
-            if (isOverlapping)
-            {
-                var activeViewBottom = activeView.GetViewRelativeBottom(View);
-                AdjustPageSize(keyboardFrame.Height, activeViewBottom);
-            }
+            
+            var activeViewBottom = activeView.GetViewRelativeBottom(View);
+            AdjustPageSize(keyboardFrame.Height, activeViewBottom);
         }
 
         private void OnKeyboardHide(NSNotification notification)
